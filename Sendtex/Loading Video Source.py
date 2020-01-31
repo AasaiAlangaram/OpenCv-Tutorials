@@ -6,8 +6,16 @@ video = cv2.VideoCapture(0)
 while True:
 
     ret , frame = video.read()
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    hsv = cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)
+    hls = cv2.cvtColor(frame, cv2.COLOR_BGR2HLS)
+    lab = cv2.cvtColor(frame, cv2.COLOR_BGR2LAB)
 
     cv2.imshow('Live Streaming',frame)
+    cv2.imshow('Gray Image',gray)
+    cv2.imshow('HSV Image',hsv)
+    cv2.imshow('HLS Image',hls)
+    cv2.imshow('LAB Image', lab)
 
     # to stop the infinite loop press 'q'
     if cv2.waitKey(1) & 0xFF == ord('q'):
