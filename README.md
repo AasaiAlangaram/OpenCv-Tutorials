@@ -21,4 +21,7 @@ If faces are found, it returns the positions of detected faces as Rect(x,y,w,h).
 7.cv2.rectangle(image, start_point, end_point, color, thickness)\
 8.Program run until key Q is pressed\
 9.Destroy all windows\
-10.Release cap object.
+10.Release cap object.\
+
+##Code
+* name: <https://github.com/AasaiAlangaram/OpenCv-Tutorials/tree/master/Code>
