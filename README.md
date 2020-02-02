@@ -24,4 +24,12 @@ If faces are found, it returns the positions of detected faces as Rect(x,y,w,h).
 10.Release cap object.\
 
 ## Code
-* name: <https://github.com/AasaiAlangaram/OpenCv-Tutorials/tree/master/Code>
+* Intro and Loading Images: <https://github.com/AasaiAlangaram/OpenCv-Tutorials/blob/master/Code/Intro%20and%20Loading%20Images.py>\
+* Loading Video Source: <https://github.com/AasaiAlangaram/OpenCv-Tutorials/blob/master/Code/Loading%20Video%20Source.py>\
+* Saving Video File: <https://github.com/AasaiAlangaram/OpenCv-Tutorials/blob/master/Code/Saving%20Video.py>\
+* Drawing Line: <https://github.com/AasaiAlangaram/OpenCv-Tutorials/blob/master/Code/Drawing%20line.py>\
+* Image Operations: <https://github.com/AasaiAlangaram/OpenCv-Tutorials/blob/master/Code/Image%20Operations.py>\
+* Image Arithmetic and Logical Operations: <https://github.com/AasaiAlangaram/OpenCv-Tutorials/blob/master/Code/Image%20Arithmetic%20and%20logical%20Operations.py>\
+* Image Thresholding: <https://github.com/AasaiAlangaram/OpenCv-Tutorials/blob/master/Code/Image%20Thresholding.py>\
+* Thresholding: <https://github.com/AasaiAlangaram/OpenCv-Tutorials/blob/master/Code/Thresholding.py>\
+* Adaptive Thresholding: <https://github.com/AasaiAlangaram/OpenCv-Tutorials/blob/master/Code/Adaptive%20Thresholding.py>
