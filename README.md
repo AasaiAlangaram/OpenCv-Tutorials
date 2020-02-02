@@ -23,5 +23,5 @@ If faces are found, it returns the positions of detected faces as Rect(x,y,w,h).
 9.Destroy all windows\
 10.Release cap object.\
 
-##Code
+## Code
 * name: <https://github.com/AasaiAlangaram/OpenCv-Tutorials/tree/master/Code>
