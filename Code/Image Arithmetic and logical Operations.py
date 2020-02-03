@@ -17,8 +17,12 @@ im32gray = cv.cvtColor(img3,cv.COLOR_BGR2GRAY)
 print(img3.shape)
 print(roi.shape)
 
+#anything above 23~255 is black because it's threshold binary inversion
 ret,mask = cv.threshold(im32gray,230,255,cv.THRESH_BINARY_INV)
+
+#inverse mask black->white & white->black
 mask_inv = cv.bitwise_not(mask)
+
 img1_bg = cv.bitwise_and(roi,roi,mask=mask_inv)
 img3_fg = cv.bitwise_and(img3,img3,mask = mask )
 
