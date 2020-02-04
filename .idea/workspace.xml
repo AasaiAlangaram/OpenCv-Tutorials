@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="443ef291-83db-4fb5-9fe8-6e4229fa716b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Code/Image Gradients - sobel and laplace filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/calender.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/gradient.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Canny Edge Detector.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,13 +24,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="2" />
-          <entry key="py" value="8" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
-          <entry key="Python" value="7" />
+          <entry key="Python" value="8" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -41,14 +38,14 @@
         <counts>
           <entry key="Python Console" value="56" />
           <entry key="dummy" value="8" />
-          <entry key="py" value="2104" />
-          <entry key="txt" value="139" />
+          <entry key="py" value="2266" />
+          <entry key="txt" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="147" />
-          <entry key="Python" value="2160" />
+          <entry key="PLAIN_TEXT" value="176" />
+          <entry key="Python" value="2322" />
         </counts>
       </usages-collector>
     </session>
@@ -124,11 +121,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code/Image Gradients - sobel and laplace filters.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
               <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Code/Canny Edge Detector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -157,6 +166,7 @@
         <option value="$PROJECT_DIR$/Code/Morphological Operations.py" />
         <option value="$PROJECT_DIR$/Code/Dilation.py" />
         <option value="$PROJECT_DIR$/Code/Image Gradients - sobel and laplace filters.py" />
+        <option value="$PROJECT_DIR$/Code/Canny Edge Detector.py" />
       </list>
     </option>
   </component>
@@ -228,7 +238,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Image Gradients - sobel and laplace filters">
+  <component name="RunManager" selected="Python.Canny Edge Detector">
+    <configuration name="Canny Edge Detector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCv-Tutorials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Canny Edge Detector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Dilation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCv-Tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,27 +294,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Green color thresholding.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Image Arithmetic and logical Operations" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCv-Tutorials" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Image Arithmetic and logical Operations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,18 +346,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.Green color thresholding" />
-      <item itemvalue="Python.Image Arithmetic and logical Operations" />
       <item itemvalue="Python.Morphological Operations" />
       <item itemvalue="Python.Dilation" />
       <item itemvalue="Python.Image Gradients - sobel and laplace filters" />
+      <item itemvalue="Python.Canny Edge Detector" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Canny Edge Detector" />
         <item itemvalue="Python.Image Gradients - sobel and laplace filters" />
         <item itemvalue="Python.Dilation" />
         <item itemvalue="Python.Morphological Operations" />
         <item itemvalue="Python.Green color thresholding" />
-        <item itemvalue="Python.Image Arithmetic and logical Operations" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580801094794</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Laplace and sobel filters">
+      <created>1580801856764</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580801856764</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -424,7 +441,8 @@
     <MESSAGE value="Just check commit Message for Merge" />
     <MESSAGE value="Added Morphological examples - erode 4/2/2020" />
     <MESSAGE value="Added Morphological examples - opening,closing,gradient." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Morphological examples - opening,closing,gradient." />
+    <MESSAGE value="Added Laplace and sobel filters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Laplace and sobel filters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -512,6 +530,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/Canny Edge Detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
