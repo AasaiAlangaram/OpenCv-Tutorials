@@ -3,7 +3,7 @@ import cv2
 #capture frames from your webcam
 video = cv2.VideoCapture(0)
 
-#load example
+#load exampleq
 # cap = cv.VideoCapture('vtest.avi')
 
 if not video.isOpened():
