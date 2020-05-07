@@ -13,7 +13,7 @@ image = im.resize(image, width=newwidth)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Noise removal with iterative bilateral filter(removes noise while preserving edges)
-d, sigmaColor, sigmaSpace = 11,17,17
+d, sigmaColor, sigmaSpace = 10,15,15
 filtered_img = cv2.bilateralFilter(gray, d, sigmaColor, sigmaSpace)
 
 # Find Edges of the grayscale image
@@ -41,15 +41,23 @@ for c in cnts:
             break
 
 # Display the original image
-cv2.imshow("Input Image", image)
+# cv2.imshow("Input Image", image)
 # Display Grayscale image
-cv2.imshow("Gray scale Image", gray)
+# cv2.imshow("Gray scale Image", gray)
 # Display Filtered image
-cv2.imshow("After Applying Bilateral Filter", filtered_img)
+# cv2.imshow("After Applying Bilateral Filter", filtered_img)
 # Display Canny Image
-cv2.imshow("After Canny Edges", edged)
+# cv2.imshow("After Canny Edges", edged)
 # Drawing the selected contour on the original image
-cv2.drawContours(image, [NumberPlateCnt], -1, (0,255,0), 3)
-cv2.imshow("Output", image)
+cv2.drawContours(image, cnts[0], -1, (0,255,0), 3)
+cv2.imshow("Output0", image)
+cv2.drawContours(image, cnts[1], -1, (0,255,0), 3)
+cv2.imshow("Output1", image)
+cv2.drawContours(image, cnts[2], -1, (0,255,0), 3)
+cv2.imshow("Output2", image)
+cv2.drawContours(image, cnts[3], -1, (0,255,0), 3)
+cv2.imshow("Output3", image)
+cv2.drawContours(image, cnts[4], -1, (0,255,0), 3)
+cv2.imshow("Output4", image)
 
 cv2.waitKey(0) #Wait for user input before closing the images displayed
